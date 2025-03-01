@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body
+        {
+            width: 50%;
+            line-height: 25px;
+            font-size: 12px;
+            font-family: Arial, sans-serif;
+        }
+        h2
+        {
+            margin-bottom:1px;
+        }
+        .flex-container
+        {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .infoInput
+        {
+            width: 90%;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+        }
+        .usernameInput
+        {
+            width: 80%;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+        }
+        select
+        {
+            border: 1px solid lightgray;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+<form style="background-color: whitesmoke; width: 100%" action="" method="post">
+    <h2>Billing address</h2>
+    <div class="flex-container">
+        <label>First name:<br><input class="infoInput" type="text"></label>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <label>Last name:<br><input class="infoInput" type="text"></label>
+    </div>
+    <label>Username:<br>
+        <input style="width: 10%; color: black; margin-right: -5px" type="button" value="@" disabled>
+        <input class="usernameInput" type="text" placeholder="Username">
+    </label><br>
+    <label>Email<span style="color: gray">(Optional)</span> <br> <input class="infoInput" type="email" placeholder="you@example.com"></label><br>
+    <label>Address <br> <input class="infoInput" type="text" placeholder="1234 Main St"></label><br>
+    <label>Address 2 <span style="color: gray">(Optional)</span><br> <input class="infoInput" type="text" placeholder="Apartment or suite"></label><br>
+    <div class="flex-container">
+        <label>Country <br>
+            <select style="width: 150px">
+                <option value="" selected disabled hidden="">Choose...</option>
+                <option value="1">VietNam</option>
+                <option value="2">China</option>
+                <option value="3">India</option>
+                <option value="4">USA</option>
+                <option value="5">Germany</option>
+            </select>
+        </label>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <label>State <br>
+            <select style="width: 100px">
+                <option value="" selected disabled hidden="">Choose...</option>
+                <option value="1">option1</option>
+                <option value="2">option2</option>
+                <option value="3">option3</option>
+            </select>
+        </label>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <label>Zip <br> <input style="width: 50px" class="infoInput" type="number"></label>
+    </div>
+    <hr style="border: 1px solid lightgray">
+    <label><input type="checkbox">Shipping addresss is the same as my billing address</label><br>
+    <label><input type="checkbox">Save this information for next time</label>
+    <hr>
+    <h2>Payment</h2>
+    <label><input type="radio" name="payment">Credit card</label><br>
+    <label><input type="radio" name="payment">Debit card</label><br>
+    <label><input type="radio" name="payment">Paypal</label><br>
+    <div class="flex-container">
+        <label>Name on card <br> <input type="text" class="infoInput"> <br> <span style="color: gray; font-size: 8px"> Full name as displayed on card</span></label>
+        <label>Credit card number <br> <input class="infoInput" type="number"></label>
+    </div>
+    <div class="flex-container">
+        <label>Expiration<br> <input style="width: 70px" class="infoInput" type="text"></label>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <label>CVV <br> <input style="width: 70px" class="infoInput" type="number"></label>
+    </div>
+    <hr>
+    <input style="width: 100%; color: white; background-color: dodgerblue; border: none; border-radius: 5px; padding: 7px" type="submit" value="Continue to checkout">
+</form>
+</body>
+</html>
