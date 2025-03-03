@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      body
+      {
+        max-width: 1000px;
+      }
+      header
+      {
+        max-width: 1000px;
+        justify-content: space-between;
+        background-color: forestgreen;
+        color: white;
+        display: flex;
+        align-items: center;
+      }
+      a
+      {
+        color: white;
+        text-decoration: none;
+      }
+      main
+      {
+        max-width: 1000px;
+      }
+      .welcome
+      {
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 80px;
+      }
+      .buttonGetStarted
+      {
+        background-color: forestgreen;
+        color: white;
+        border: none;
+        padding: 5px;
+      }
+      .containerFeature
+      {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        padding: 10px;
+        box-sizing: border-box; /*Kích thước phần border không vượt quá width*/
+        justify-content: space-between;
+      }
+      .buttonFeature
+      {
+        background-color: darkgray;
+        width: 30%;
+        padding: 5px;
+        border: none;
+      }
+      footer
+      {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        padding: 1px;
+      }
+    </style>
+</head>
+<body>
+<header id="home">
+  <p style="margin-left: 20px">MyLogo</p>
+  <nav style="margin-right: 20px">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#sevices">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main id="about">
+  <div class="welcome">
+    <h1>Welcome to My Website</h1>
+    <p>We provide the best solutions for your business</p>
+    <button class="buttonGetStarted">Get Started</button>
+  </div>
+  <div id="sevices" class="containerFeature">
+    <button class="buttonFeature">Feature 1</button>
+    <button class="buttonFeature">Feature 2</button>
+    <button class="buttonFeature">Feature 3</button>
+  </div>
+</main>
+<footer id="contact">
+  <p>Contact us: email@example.com</p>
+</footer>
+</body>
+</html>
