@@ -1,0 +1,32 @@
+.container
+{
+    width: 600px;
+}
+.block1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid #DFE2E6;
+}
+.block2
+{
+    border: 1px solid #DFE2E6;
+}
+.title-block2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D3E1FC;
+    padding: 0 20px;
+}
+#item2
+{
+    color: #112B61;
+}
+.description
+{
+    padding: 5px;
+}

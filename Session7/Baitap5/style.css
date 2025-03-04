@@ -1,0 +1,54 @@
+.pack
+{
+    margin: 10px;
+    width: 200px;
+    font: 15px Arial, sans-serif;
+    border: 1px solid #EEEEEE;
+}
+.title
+{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #DA373E;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+}
+.icon
+{
+    width: 60px;
+    position: absolute; top: 0; left: 175px;
+}
+.description
+{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    font-size: 13px;
+}
+.description p
+{
+    margin: 10px 0 0 0;
+    color: dimgray;
+}
+.detail
+{
+    color: #F09235;
+}
+.btn-signIn
+{
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #DA373E;
+    color: white;
+    border-radius: 20px;
+}
+.btn-detail
+{
+    width: 40%;
+    margin: 15px auto;
+    color: #DA373E;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid #DA373E;
+}
