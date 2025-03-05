@@ -1,0 +1,48 @@
+.container
+{
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 800px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+}
+hr
+{
+    border: 1px solid whitesmoke;
+}
+.time
+{
+    font-size: 10px;
+    margin: 50px auto 20px auto;
+}
+.title
+{
+    width: 44%;
+    margin: 0 auto 20px auto;
+}
+.content
+{
+    text-align: start;
+    width: 95%;
+    font-size: 15px;
+    margin: 20px auto;
+    line-height: 30px;
+}
+button
+{
+    background-color: white;
+    margin: 0 auto 50px auto;
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: cornflowerblue;
+    cursor: pointer;
+}

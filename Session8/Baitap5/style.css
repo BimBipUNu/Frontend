@@ -1,0 +1,52 @@
+body
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #9999A6;
+}
+.container1
+{
+    background-color: #FBFBFB;
+}
+.container2
+{
+    background-color: #F7F7F7;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.download
+{
+    background-color: #4696E5;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 10px;
+}
+.learnmore
+{
+    background-color: white;
+    border: 1px solid #9999A6;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.icon-container
+{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+.copy
+{
+    color: #9999A6;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+.copy > span
+{
+    border-bottom: 1px dotted #9999A6;
+}

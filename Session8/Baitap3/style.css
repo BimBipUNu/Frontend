@@ -1,0 +1,44 @@
+.header
+{
+    padding-left: 20px;
+}
+hr
+{
+    width: 130px;
+    border: 2px solid #F56A6A;
+    margin: 10px 0 20px 0;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.block
+{
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+}
+.container .block:not(:nth-child(1))
+{
+    border-left: 1px solid lightgray;
+}
+.detail
+{
+    color: lightgray;
+    font-size: 13px
+}
+button
+{
+    background-color: white;
+    border: 2px solid #F56A6A;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+a
+{
+    color: #F56A6A;
+    font-size: 10px;
+    text-decoration: none;
+}
