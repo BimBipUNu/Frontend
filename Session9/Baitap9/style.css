@@ -1,0 +1,57 @@
+body
+{
+    margin: 0;
+    font-size: 3vh;
+    color: white;
+}
+.img1
+{
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+.flexbox
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flexbox img
+{
+    width: 32vw;
+    height: 30vh;
+    margin-bottom: 1vh;
+}
+.signUp
+{
+    width: 32vw;
+    height: 30vh;
+    background-color: darkred;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signUp button
+{
+    color: darkred;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh 8vw;
+}
+.block
+{
+    position: relative;
+}
+.title1
+{
+    position: absolute; bottom: 0; left: 0;
+    width: 30vw;
+}
+.title
+{
+    position: absolute; top: 5vh; left: 2vw;
+    width: 25vw;
+}
+

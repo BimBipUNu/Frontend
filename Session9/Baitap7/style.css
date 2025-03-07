@@ -1,0 +1,48 @@
+*
+{
+    font-family: Arial, sans-serif;
+}
+header
+{
+    color: white;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav
+{
+    display: flex;
+}
+.aHeader
+{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.post
+{
+    width: 50%;
+    margin: 1vh 50% 1vh 7%;
+}
+.hotPost
+{
+    padding: 1vh 1vw;
+    background-color: lightgray;
+}
+.otherPost
+{
+    padding: 1vh 1vw;
+    background-color: whitesmoke;
+}
+.aPost
+{
+    text-decoration: none;
+}
+footer
+{
+    color: white;
+    background-color: #333333;
+    text-align: center;
+    padding: 2vh 0;
+}

@@ -1,0 +1,104 @@
+body
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #009BE5;
+}
+h1
+{
+    margin: 10vh 1vw 3vh;
+}
+.flexbox
+{
+    display: flex;
+    align-items: center;
+}
+.title .flexbox p
+{
+    color: white;
+    margin: auto 1vw;
+    padding-bottom: 2vh;
+}
+.title .flexbox p:nth-child(1)
+{
+
+    border-bottom: 3px solid white;
+}
+.title .flexbox p:not(:first-child),
+.info .flexbox p
+{
+    color: lightgray;
+}
+img
+{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+.info .flexbox
+{
+    width: 12vw;
+    justify-content: space-around;
+}
+.info .flexbox button
+{
+    border: 1px solid white;
+    color: white;
+    background-color: #009BE5;
+    padding: 1vh 1vw;
+    border-radius: 7px;
+    margin: auto 0.5vw;
+}
+.container
+{
+    margin: 5vh auto;
+    width: 80%;
+}
+.search
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px 10px 0 0;
+}
+.block1
+{
+    margin: 3vh 2vw;
+}
+.block1 input
+{
+    border: none;
+    background-color: whitesmoke;
+    width: 50vw;
+    margin: auto 1vw;
+}
+.block2
+{
+    margin: 3vh 2vw;
+}
+.block2 button
+{
+    border: none;
+    border-radius: 5px;
+    background-color:  #009BE5;
+    padding: 1vh 1vw;
+    margin: auto 1vw;
+    color: white;
+}
+.detail
+{
+    color: gray;
+    background-color: white;
+    text-align: center;
+    padding: 10vh 1vw;
+    border: 1px solid lightgray;
+    border-radius: 0 0 10px 10px;
+}
