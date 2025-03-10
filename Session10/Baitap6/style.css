@@ -1,0 +1,72 @@
+body
+{
+    margin: 0;
+}
+main
+{
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 95vw;
+    margin: 2vh 1vw;
+}
+.img
+{
+    width: 95vw;
+    height: 80vh;
+    margin: 0 auto;
+    position: relative;
+}
+img
+{
+    width: 95vw;
+    height: 80vh;
+    object-fit: cover;
+}
+.img button
+{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 1vh;
+    position: absolute; top: 3vh; left: 3vw;
+}
+.title
+{
+    font-size: 3vh;
+    width: 65%;
+    position: absolute; bottom: 2vh; left: 3vw;
+}
+.changePage
+{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 2vw;
+}
+.back
+{
+    background-color: gray;
+    padding: 5px 10px;
+    margin: 20px;
+
+}
+.next
+{
+    background-color: black;
+    padding: 5px 10px;
+    margin: 0 20px;
+}
+.page
+{
+    margin: 20px;
+    color: lightgray;
+}
+.first
+{
+    color: white;
+    background-color: black;
+    padding: 3px 12px;
+    border-radius: 50%;
+}

@@ -1,0 +1,43 @@
+.moon-dance-regular {
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body
+{
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+header
+{
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1
+{
+    font-family: "Moon Dance", sans-serif;
+    font-size: 3em;
+    margin: 3vh 0;
+}
+nav a
+{
+    margin: 0 1vw;
+    text-decoration: none;
+    color: lightgray;
+}
+nav a:nth-child(1)
+{
+    color: black;
+    font-weight: bold;
+}
+button
+{
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh 1vw;
+}

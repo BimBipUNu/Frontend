@@ -1,0 +1,125 @@
+body
+{
+    background-color: #F5F5F5;
+}
+main
+{
+    background-color: white;
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+}
+.moreImg
+{
+    margin: 5vh 1vw 0 10vw;
+}
+.moreImg img
+{
+    margin-bottom: 2vh;
+    width: 4vw;
+    height: 4vw;
+}
+.mainImg
+{
+    margin: 5vh 5vw 0 0;
+}
+.mainImg img
+{
+    height: 55vh;
+}
+.description
+{
+    margin: 5vh 0 0 0;
+}
+.description h2
+{
+    margin: 0 0 1vh 0;
+}
+.description .price,
+.size p,
+.color p
+{
+    color: gray;
+    margin-top: 0;
+}
+.description .reviews
+{
+    color: gray;
+    margin-top: 0;
+    padding-left: 1vw;
+    border-left: 1px solid gray;
+}
+.description .detail
+{
+    width: 55%;
+}
+.btn-type1
+{
+    color: white;
+    background-color: #B88E2F;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5vh 0.5vw;
+    margin: 0.3vw;
+}
+.btn-type2
+{
+    background-color: #F9F1E7;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5vh 0.5vw;
+    margin: 0 0.3vw 3vh 0;
+}
+.color button
+{
+    border: none;
+    border-radius: 20px;
+    padding: 0.5vh 0.5vw;
+    margin: 0 0.3vw 3vh 0;
+}
+#purple
+{
+    background-color: #816DFA;
+    color: #816DFA;
+}
+#black
+{
+    background-color: black;
+    color: black;
+}
+#grown
+{
+    background-color: #B88E2F;
+    color: #B88E2F;
+}
+.more
+{
+    display: flex;
+}
+.more button
+{
+    padding: 2vh 2vw;
+    margin: 0 1vw 5vh 0;
+    border-radius: 1vw;
+    background-color: white;
+}
+#quantity
+{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    border-radius: 1vw;
+    height: 7vh;
+    margin-right: 1vw;
+}
+td
+{
+    color: gray;
+    font-size: 1vw;
+}
+.icon
+{
+    color:black;
+    margin-right: 1vw;
+}
