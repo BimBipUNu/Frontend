@@ -1,0 +1,27 @@
+html
+{
+    font-size: 16px;
+}
+body
+{
+    background-color: gray;
+}
+form
+{
+    width: 30rem;
+    margin: 1rem auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.headerForm
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#icon
+{
+    color: gray;
+    font-size: 2rem;
+}

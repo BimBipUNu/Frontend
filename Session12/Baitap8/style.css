@@ -1,0 +1,32 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 16px;
+}
+.payment
+{
+    background-color: whitesmoke;
+    width: 50%;
+}
+.flex
+{
+    display: flex;
+    gap: 1rem;
+}
+.input
+{
+    width: 22rem;
+}
+.inputType2
+{
+    width: 10.5rem;
+}
+button
+{
+    width: 100%;
+}
