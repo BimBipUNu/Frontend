@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 16px;
+}
+.flex
+{
+    display: flex;
+}
+.headerTitle
+{
+    margin: 1rem 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    align-items: center;
+}
+.logo img
+{
+    width: 3rem;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 3rem;
+}
+.profile i
+{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+main
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContent
+{
+    width: 100%;
+    margin: 5rem auto 0;
+    text-align: center;
+    position: relative;
+}
+.mainContent h1
+{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 3rem;
+    position: relative;
+}
+.mainContent p
+{
+    width: 40%;
+    margin: 1rem auto;
+    color: gray;
+}
+.mainContent h1 img
+{
+    position: absolute; top: 2.5rem; right: 4rem;
+    width: 3rem;
+}
+#pointToSearch
+{
+    position: absolute; top: 0; left: 22rem;
+    width: 10rem;
+    height: 20rem;
+    transform: rotate(20deg);
+}
+.search
+{
+    width: 35%;
+    background-color: white;
+    margin: 0 auto;
+    height: 5rem;
+    font-size: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; top: 2rem
+}
+.searchPlace
+{
+    margin-left: 1rem;
+    align-items: center;
+}
+.searchPlace input
+{
+    border: none;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+.search button
+{
+    border: none;
+    background-color: seagreen;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.mainImg
+{
+    width: 70%;
+}

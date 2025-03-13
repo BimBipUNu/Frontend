@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 16px;
+}
+body
+{
+    font-family: Arial, sans-serif;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 100px 30px 54px;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo p
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+a
+{
+    margin-right: 75px;
+    text-decoration: none;
+    color: black;
+}
+.profile i
+{
+    margin-right: 45px;
+}
+#lastI
+{
+    margin-right: 0;
+}
+.img
+{
+    position: relative;
+}
+.img img
+{
+    width: 100%;
+    height: 100%;
+}
+.descriptionMainImg
+{
+    width: 643px;
+    height: 443px;
+    background-color: #FFF3E3;
+    position: absolute; top: 153px; right: 58px;
+    padding: 74px 43px 49px 39px;
+}
+#newarrival
+{
+    font-size: 16px;
+}
+.descriptionMainImg h3
+{
+    color: #B88E2F;
+    font-size: 52px;
+}
+#lorem
+{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.descriptionMainImg button
+{
+    background-color: #B88E2F;
+    padding: 25px 72px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.content
+{
+    margin: 0 auto;
+}
+.contentTitle
+{
+    text-align: center;
+}
+.contentTitle h2
+{
+    font-size: 32px;
+}
+.contentTitle p
+{
+    color: gray;
+    font-size: 20px;
+}
+.contentBody
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 62px;
+}
+.contentBody img
+{
+    width: 381px;
+    height: 480px;
+}
+.block1
+{
+    margin-left: 131px;
+}
+.block3
+{
+    margin-right: 126px;
+}
+
+.detail
+{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
