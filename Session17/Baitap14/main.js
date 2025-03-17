@@ -1,0 +1,6 @@
+let radius = Number(prompt("Nhập bán kính của hình trụ:"))
+let height = Number(prompt("Nhập chiều cao của hình trụ:"))
+document.writeln("Chu vi đáy: " + (2 * Math.PI * radius).toFixed(2))
+document.writeln("Diện tích xung quanh: " + (2 * Math.PI * radius * height).toFixed(2))
+document.writeln("Diện tích toàn phần: " + (2 * Math.PI * radius * height + 2 * Math.PI * Math.pow(radius, 2)).toFixed(2))
+document.writeln("Thể tích hình trụ: " + (Math.PI * Math.pow(radius, 2) * height).toFixed(2))
