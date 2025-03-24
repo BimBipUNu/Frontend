@@ -47,7 +47,7 @@ while (true) {
                 Number.isInteger(Math.sqrt(num)) ? alert(num + " la so chinh phuong") : alert(num + " khong phai so chinh phuong");
                 break;
             case 4:
-                let a = 1 ;
+                let a = 1;
                 let b = 1;
                 let c = 1;
                 console.log("Dãy Fibonacci:");
