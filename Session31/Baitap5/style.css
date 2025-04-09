@@ -1,0 +1,10 @@
+caption {
+    font-weight: bold;
+    font-size: large;
+}
+table {
+    border: 1px solid black;
+}
+td, tr,th {
+    border: 1px solid black;
+}

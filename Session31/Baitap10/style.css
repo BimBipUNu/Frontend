@@ -1,0 +1,47 @@
+.input {
+    display: flex;
+}
+.name, .position{
+    border: 1px solid gray;
+    padding: 10px;
+}
+form, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    width: 100%;
+}
+th {
+    background-color: lightgray;
+    padding: 5px 10px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    gap: 5px
+}
+.page button{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.page span {
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inPage {
+    color: white;
+    background-color: blue;
+}
+button.mM {
+    color: lightblue;
+    border: 1px solid lightblue;
+}

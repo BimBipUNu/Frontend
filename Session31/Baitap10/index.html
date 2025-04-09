@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="display">
+  <form action="#" method="post">
+    <h1>Danh sách nhân viên Rikkei</h1>
+    <div class = "input">
+      <div class="name">
+        <label for="name">Tên nhân viên</label>
+        <input type="text" id="name">
+      </div>
+      <div class="position">
+        <label for="position">Chức vụ</label>
+        <input type="text" id="position">
+      </div>
+    </div>
+    <button class="add" type="submit">Thêm nhân viên</button>
+  </form>
+  <table>
+    <thead>
+    <tr>
+      <th>STT</th>
+      <th>Tên</th>
+      <th>Chức vụ</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <div class="page">
+    <button class="mM" id="prev">Previous</button>
+    <div id="listPage">
+      <span id="pageNumbers" class="inPage">1</span>
+    </div>
+    <button id="next">Next</button>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
