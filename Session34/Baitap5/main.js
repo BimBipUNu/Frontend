@@ -22,6 +22,6 @@ document.getElementById("addEmp").addEventListener("click", function (e) {
 
     employee.push({name, position})
     localStorage.setItem("employee",JSON.stringify(employee));
-    
+
     renderData();
 })
